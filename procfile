@@ -1,1 +1,1 @@
-web:node/dist/index.ts
+worker: npm start

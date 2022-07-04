@@ -22,7 +22,6 @@
     // "reactNamespace": "",                             /* Specify the object invoked for `createElement`. This only applies when targeting `react` JSX emit. */
     // "noLib": true,                                    /* Disable including any library files, including the default lib.d.ts. */
     // "useDefineForClassFields": true,                  /* Emit ECMAScript-standard-compliant class fields. */
-
     /* Modules */
     "module": "commonjs" /* Specify what module code is generated. */,
     "rootDir": "./src" /* Specify the root folder within your source files. */,
@@ -96,7 +95,8 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": ["src/**/*"]
 }
 
 // yarn add --dev @types/bcrypt @types/bcryptjs @types/busboy @types/cloudinary @types/cookie-parser @types/cors @types/dotenv @types/express @types/firebase-admin @types/jsonwebtoken @types/mongodb @types/mongoose @types/morgan @types/multer @types/query-string @types/ts-node
