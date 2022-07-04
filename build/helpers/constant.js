@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.OBJECT_ID_REGEX = exports.DEFAULT_MESSAGE = exports.URL_REGEX = exports.NO_SPACE_REGEX = exports.EMAIL_REGEX = exports.PHONE_NUMBER_REGEX = exports.PASSWORD_REGEX = void 0;
+exports.PASSWORD_REGEX = /^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}/;
+exports.PHONE_NUMBER_REGEX = /(84|0[3|5|7|8|9])+([0-9]{8})\b/;
+exports.EMAIL_REGEX = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+exports.NO_SPACE_REGEX = /^\S*$/;
+exports.URL_REGEX = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
+exports.DEFAULT_MESSAGE = "Congratulation";
+exports.OBJECT_ID_REGEX = /^(?=[a-f\d]{24}$)(\d+[a-f]|[a-f]+\d)/i;
